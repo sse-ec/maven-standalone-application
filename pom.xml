@@ -51,6 +51,18 @@
 	</issueManagement>
 
 	-->
+	<distrubutionManagement>
+	    <repository>
+		<id>nexus</id>
+		<name>M Technologies pvt Ltd Release Repository</name>
+		<url>http://localhost:8081/repository/flipkart-releases/</url>
+	    </repository>
+	    <snapshotRepository>
+		<id>nexus</id>
+		<name>M Technologies pvt Ltd Snap Shot Repository</name>
+		<url>http://localhost:8081/repository/flipkart-snapshot/</url>
+	    </snapshotRepository>
+	</distrubutionManagement>
 	<build>
 	  <plugins>
 	    <plugin>
