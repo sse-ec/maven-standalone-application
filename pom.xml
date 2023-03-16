@@ -16,6 +16,12 @@
 	</organization>
 	
 	<description>Maven Standalone Application</description>
+	
+	<properties>
+		<sonar.host.url>http://localhost:9000/</sonar.host.url>
+		<sonar.login>squ_6dd36082de3a24dfdf929eccec28af67004365d6</sonar.login>
+		
+	</properties>
 
 	<dependencies>
 
